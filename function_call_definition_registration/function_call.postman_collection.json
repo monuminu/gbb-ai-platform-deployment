@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "917e7371-b2af-4e4c-952b-dce209699725",
+		"name": "function_call",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27381318"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8001/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"functionName\": \"my_function4\",\n    \"functionScript\": \"def my_function4():\\n return 'hello my_function4'\",\n    \"packages\": \"matlib==0.1.2\\nhello-hello==1.0.0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8001/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8001",
+					"path": [
+						"register"
+					]
+				},
+				"description": "register a function with tree parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/execute",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"code\": \"my_function3()\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/execute",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"execute"
+					]
+				},
+				"description": "execute python script"
+			},
+			"response": []
+		}
+	]
+}
