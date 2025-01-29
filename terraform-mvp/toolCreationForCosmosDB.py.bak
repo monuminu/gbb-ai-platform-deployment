@@ -1,0 +1,129 @@
+import sys
+import json
+from azure.cosmos import CosmosClient
+
+
+#  connection information
+endpoint = sys.argv[1]
+key = sys.argv[2]
+database_name = sys.argv[3]
+container_name = sys.argv[4]
+
+# Initialize the Cosmos client
+client = CosmosClient(endpoint, key)
+
+# Get database and container references
+database = client.get_database_client(database_name)
+container = database.get_container_client(container_name)
+
+# Define the item to be inserted
+items = [
+    {
+        "apiAuth": "",
+        "code": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"Function calling demo API\",\n    \"version\": \"1.0.0\",\n    \"description\": \"API for GPT function calling\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://<FUNCTION_CALL_URL_PLACEHOLDER>\"\n    }\n  ],\n  \"paths\": {\n    \"/api/bing_search\": {\n      \"post\": {\n        \"summary\": \"Search for information using Bing\",\n        \"operationId\": \"bing_search\",\n        \"requestBody\": {\n          \"description\": \"The search request payload\",\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"query\": {\n                    \"type\": \"string\",\n                    \"description\": \"The search query string\"\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}",
+        "cover": "/static/mock-images/tools/bing.jpg",
+        "createdAt": "2024-07-25T12:57:42.297Z",
+        "dependencies": [],
+        "description": "Searches bing to get up to date information from the web.",
+        "entryFunction": "",
+        "envVars": [],
+        "id": "25d51168-40e6-4766-a655-f6c061f49d1c",
+        "meta": "{\n  \"name\": \"bing_search\",\n  \"description\": \"Search for information using Bing\",\n  \"parameters\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"query\": {\n        \"type\": \"string\",\n        \"description\": \"The search query string\"\n      }\n    },\n    \"required\": [\"query\"]\n  }\n}",
+        "modifiedAt": "2024-07-25T12:59:13.498Z",
+        "name": "Toolset-Bing",
+        "params": [
+            {
+                "name": "url",
+                "type": "string",
+                "value": "https://<FUNCTION_CALL_URL_PLACEHOLDER>/api/bing_search"
+            },
+            {
+                "name": "method",
+                "type": "string",
+                "value": "post"
+            },
+            {
+                "name": "path",
+                "type": "string",
+                "value": "/api/bing_search"
+            },
+            {
+                "name": "requestBody",
+                "type": "application/json",
+                "value": "{\n  \"query\": \"What is GPT 4o mini?\"\n}",
+                "required": True
+            }
+        ],
+        "response": "",
+        "shared": [
+            {
+                "avatarUrl": "",
+                "email": "admin@gbbai.com",
+                "id": "1",
+                "name": "Admin",
+                "permission": "edit"
+            }
+        ],
+        "status": "published",
+        "tags": [
+            "built-in"
+        ],
+        "type": "OpenAPI"
+    },
+    {
+        "apiAuth": "",
+        "code": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"Function calling demo API\",\n    \"version\": \"1.0.0\",\n    \"description\": \"API for GPT function calling\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://<FUNCTION_CALL_URL_PLACEHOLDER>\"\n    }\n  ],\n  \"paths\": {\n    \"/api/get_stock_data\": {\n      \"post\": {\n        \"summary\": \"Query for stock information\",\n        \"operationId\": \"get stock data\",\n        \"requestBody\": {\n          \"description\": \"The stock retreival payload\",\n          \"required\": true,\n          \"content\": {\n            \"application/json\": {\n              \"schema\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"stock_code\": {\n                    \"type\": \"string\",\n                    \"description\": \"The code of stock\"\n                  },\n                  \"start_date\": {\n                    \"type\": \"string\",\n                    \"description\": \"The start date of the stock history period\"\n                  },\n                  \"end_date\": {\n                    \"type\": \"string\",\n                    \"description\": \"The end date of the stock history period\"\n                  }\n                }\n              }\n            }\n          }\n        },\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful response\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"type\": \"object\",\n                  \"properties\": {\n                    \"schema\": {\n                      \"type\": \"object\",\n                      \"properties\": {\n                          \"fields\": {\n                              \"type\": \"array\"\n                          }\n                      }\n                    },\n                    \"data\": {\n                        \"type\": \"array\",\n                        \"items\": {\n                             \"type\": \"object\"\n                        }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}",
+        "cover": "/static/mock-images/tools/stock.jpg",
+        "createdAt": "2024-07-05T10:58:44.235Z",
+        "dependencies": [],
+        "description": "",
+        "entryFunction": "",
+        "envVars": [],
+        "id": "ffd5305c-b9b5-4b5b-9fee-d8d652781b13",
+        "meta": "{\n  \"name\": \"get_stock_data\",\n  \"description\": \"Query for stock information\",\n  \"parameters\": {\n    \"type\": \"object\",\n    \"properties\": {\n      \"stock_code\": {\n        \"type\": \"string\",\n        \"description\": \"The code of stock\"\n      },\n      \"start_date\": {\n        \"type\": \"string\",\n        \"description\": \"The start date of the stock history period\"\n      },\n      \"end_date\": {\n        \"type\": \"string\",\n        \"description\": \"The end date of the stock history period\"\n      }\n    },\n    \"required\": [\"stock_code\", \"start_date\", \"end_date\"]\n  }\n}\n",
+        "modifiedAt": "2024-07-05T11:24:22.748Z",
+        "name": "Toolset-Stock",
+        "params": [
+            {
+                "name": "url",
+                "type": "string",
+                "value": "https://<FUNCTION_CALL_URL_PLACEHOLDER>/api/get_stock_data"
+            },
+            {
+                "name": "method",
+                "type": "string",
+                "value": "post"
+            },
+            {
+                "name": "path",
+                "type": "string",
+                "value": "/api/get_stock_data"
+            },
+            {
+                "name": "requestBody",
+                "required": True,
+                "type": "application/json",
+                "value": "{\n  \"stock_code\": \"MSFT\",\n  \"start_date\": \"2024-06-01\",\n  \"end_date\": \"2024-07-01\"\n}"
+            }
+        ],
+        "response": "",
+        "shared": [
+            {
+                "avatarUrl": "",
+                "email": "admin@gbbai.com",
+                "id": "1",
+                "name": "Admin",
+                "permission": "edit"
+            }
+        ],
+        "status": "published",
+        "tags": [
+            "Built-in"
+        ],
+        "type": "OpenAPI"
+    }
+]
+
+# Insert the item into the container
+for item in items:
+    container.create_item(body=item)

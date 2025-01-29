@@ -1,0 +1,57 @@
+variable "tenant_id" {
+  type        = string
+  description = "Sets the default tenant_id used for resource deployments where needed."
+  default     = "xxxxxx"
+}
+
+variable "subscription_id" {
+  type        = string
+  description = "Sets the default subscription_id used for resource deployments where needed."
+  default     = "xxxxxx"
+}
+
+variable "azure_openai_endpoint" {
+  type        = string
+  description = "This is your Azure OpenAI endpoint."
+  default     = "https://xxxxxx.openai.azure.com/"
+}
+
+variable "azure_openai_api_key" {
+  type        = string
+  description = "This is the key for your Azure OpenAI resource."
+  default     = ""
+}
+
+variable "azure_openai_emb_deployment" {
+  type        = string
+  description = "This is the name of your Azure OpenAI embedding deployment."
+  default     = "xxxxxx"
+}
+
+variable "azure_dalle_endpoint" {
+  type        = string
+  nullable    = true
+  description = "This is your Azure OpenAI endpoint. Make sure that a Dall·E-3 deployment is present in your Azure OpenAI resource."
+  default     = "https://xxxxxx.openai.azure.com/"
+}
+
+variable "azure_dalle_key" {
+  type        = string
+  nullable    = true
+  description = "This is the key for your Azure OpenAI endpoint. Make sure that a Dall·E-3 deployment is present in your Azure OpenAI resource."
+  default     = ""
+}
+
+variable "azure_dalle_deployment" {
+  type        = string
+  nullable    = true
+  description = "This is the name of your Dall·E-3 deployment"
+  default     = "xxxxxx"
+}
+
+variable "bing_search_subscription_key" {
+  type        = string
+  nullable    = true
+  description = "This is the key for your Bing search resource."
+  default     = ""
+}
