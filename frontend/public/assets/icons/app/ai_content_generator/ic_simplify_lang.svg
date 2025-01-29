@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🥬Icons/ ic_aigc_simplify</title>
+    <g id="🥬Icons/-ic_aigc_simplify" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#gr" fill="#000000" fill-rule="nonzero" opacity="0">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Group" transform="translate(1, 1)" fill="#000000" fill-rule="nonzero">
+            <path d="M8,3 L10.5,8.5 L16,11 L10.5,13.5 L8,19 L5.5,13.5 L0,11 L5.5,8.5 L8,3 M8,7.83 L7,10 L4.83,11 L7,12 L8,14.17 L9,12 L11.17,11 L9,10 L8,7.83 M18,8 L16.74,5.26 L14,4 L16.74,2.75 L18,0 L19.25,2.75 L22,4 L19.25,5.26 L18,8 M18,22 L16.74,19.26 L14,18 L16.74,16.75 L18,14 L19.25,16.75 L22,18 L19.25,19.26 L18,22 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

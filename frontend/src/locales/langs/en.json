@@ -1,0 +1,18 @@
+{
+  "app": "app",
+  "user": "user",
+  "list": "list",
+  "edit": "edit",
+  "lists": "lists",
+  "create": "create",
+  "general": "general",
+  "tracing": "tracing",
+  "account": "account",
+  "details": "details",
+  "gpts_store": "GPT store",
+  "monitoring": "Monitoring",
+  "agent_store": "Agent store",
+  "description": "description",
+  "documentation": "Documentation",
+  "knowledge_base": "knowledge base"
+}

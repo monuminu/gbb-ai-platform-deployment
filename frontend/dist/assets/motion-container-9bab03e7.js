@@ -1,0 +1,1 @@
+import{j as t,h as n,a9 as e}from"./index-f7c4dfad.js";import{v as o}from"./container-3f1c2166.js";function f({animate:r,action:s=!1,children:i,...a}){return s?t.jsx(n,{component:e.div,initial:!1,animate:r?"animate":"exit",variants:o(),...a,children:i}):t.jsx(n,{component:e.div,initial:"initial",animate:"animate",exit:"exit",variants:o(),...a,children:i})}export{f as M};

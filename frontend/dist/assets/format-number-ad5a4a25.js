@@ -1,0 +1,1 @@
+import{n}from"./numeral-b65a1435.js";function f(t){return n(t).format()}function s(t){const r=t?n(t).format("0.00a"):"";return e(r,".00")}function u(t){const r=t?n(t).format("0 b"):"";return e(r,".0")}function e(t,r=".00"){return t.includes(r)?t.replace(r,""):t}export{s as a,f as b,u as f};

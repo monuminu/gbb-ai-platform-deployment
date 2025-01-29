@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🥬Icons/ ic_tutorial</title>
+    <g id="🥬Icons/-ic_tutorial" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1, 3)" fill="#000000" fill-rule="nonzero">
+            <path d="M11,8.8 L2.794,5.522 L3.3,17.6 L1.1,17.6 L1.628,5.049 L0,4.4 L11,0 L22,4.4 L11,8.8 Z M11,3.3 C10.395,3.3 9.9,3.784 9.9,4.4 C9.9,5.016 10.395,5.5 11,5.5 C11.605,5.5 12.1,5.016 12.1,4.4 C12.1,3.784 11.605,3.3 11,3.3 Z M11,9.9 L17.127,7.447 C17.908,8.481 18.447,9.724 18.623,11.077 C18.293,11.033 17.952,11 17.6,11 C14.795,11 12.342,12.507 11,14.751 C9.61427435,12.4254267 7.10712517,11.0005302 4.4,11 C4.048,11 3.707,11.033 3.377,11.077 C3.553,9.724 4.092,8.481 4.873,7.447 L11,9.9 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

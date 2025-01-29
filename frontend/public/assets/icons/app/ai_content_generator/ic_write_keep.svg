@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🥬Icons/ ic_labeling_filled</title>
+    <g id="🥬Icons/-ic_labeling_filled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+        <g id="Group" transform="translate(3, 3)" fill="#000000" fill-rule="nonzero">
+            <path d="M16.0538045,6.09041096 L11.8679966,1.94794521 L13.246851,0.567123288 C13.6243944,0.189041096 14.0882804,8.76011592e-16 14.638509,8.76011592e-16 C15.1887375,8.76011592e-16 15.6522952,0.189041096 16.0291821,0.567123288 L17.4080365,1.94794521 C17.7855799,2.3260274 17.9825591,2.78235616 17.9989741,3.31693151 C18.015389,3.85150685 17.8348247,4.30750685 17.4572813,4.68493151 L16.0538045,6.09041096 Z M14.6257053,7.54520548 L4.18580792,18 L0,18 L0,13.8082192 L10.4398974,3.35342466 L14.6257053,7.54520548 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+const r={width:24,height:24,body:'<g id="evaMoreHorizontalFill0"><g id="evaMoreHorizontalFill1"><g id="evaMoreHorizontalFill2" fill="currentColor"><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/><circle cx="5" cy="12" r="2"/></g></g></g>'};var l=r;export{l as _};

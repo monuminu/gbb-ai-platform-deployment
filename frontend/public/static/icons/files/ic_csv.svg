@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/files/ic_csv</title>
+    <g id="icons/files/ic_csv" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="content" transform="translate(3, 0)">
+            <path d="M11.14791,0 L17.95021,7.09006438 L17.95021,20.8791344 C17.95021,22.5982344 16.54841,24.0000344 14.82941,24.0000344 L3.12082,24.0000344 C1.39442,24.0000344 0,22.5982344 0,20.8791344 L0,3.12081438 C0,1.39441438 1.39442,0 3.12082,0 L11.14791,0 Z" id="Path" fill="#FFD666"></path>
+            <polygon id="Path" fill="#FFFFFF" opacity="0.4" points="11.13961 0 11.13961 7.03105438 17.94931 7.03105438"></polygon>
+        </g>
+        <text id="CSV" font-family="Helvetica-Bold, Helvetica" font-size="6" font-weight="bold" fill="#FFFFFF">
+            <tspan x="5.7" y="17.5">CSV</tspan>
+        </text>
+    </g>
+</svg>

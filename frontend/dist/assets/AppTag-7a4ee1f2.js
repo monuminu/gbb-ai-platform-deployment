@@ -1,0 +1,1 @@
+import{j as i}from"./index-f7c4dfad.js";import{T as p}from"./index-491c3250.js";function m({title:o,color:r,variant:t,sx:a}){return i.jsx(p,{color:r!==void 0?r:"default",variant:t,sx:a,children:o})}export{m as A};

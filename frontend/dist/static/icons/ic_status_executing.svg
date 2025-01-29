@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>#gr</title>
+    <g id="🥬---Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🥬Icons/-ic_status_none-Copy">
+            <rect id="Rectangle" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+            <ellipse id="Oval" fill="#FFFFFF" cx="13" cy="12" rx="6" ry="8"></ellipse>
+            <g id="Group" transform="translate(2.000000, 2.000000)" fill="#1890FF" fill-rule="nonzero">
+                <path d="M9.99,0 C4.47,0 0,4.48 0,10 C0,15.52 4.47,20 9.99,20 C15.52,20 20,15.52 20,10 C20,4.48 15.52,0 9.99,0 Z" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(8.250000, 7.000000)" stroke="#FFFFFF" stroke-width="1.5">
+                <path d="M0,0.535714286 L7.58928571,0.535714286 M0,9.46428571 L7.58928571,9.46428571" id="Shape" stroke-linecap="round"></path>
+                <path d="M0.892857143,9.45684524 C1.48816964,6.47938988 2.45535714,4.99122024 3.79464286,4.99255862 C5.13392857,4.99389881 6.10111607,6.48184524 6.69642857,9.45684524 L0.892857143,9.45684524 Z" id="Path" stroke-linejoin="round"></path>
+                <path d="M6.69642857,0.52827381 C6.10111607,3.50572917 5.13392857,4.99389881 3.79464286,4.99256043 C2.45535714,4.99122024 1.48816964,3.50327381 0.892857143,0.52827381 L6.69642857,0.52827381 Z" id="Path" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>#gr</title>
+    <g id="🥬---Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="🥬Icons/-ic_status_none">
+            <rect id="Rectangle" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+            <ellipse id="Oval" fill="#FFFFFF" cx="13" cy="12" rx="6" ry="8"></ellipse>
+            <g id="Group" transform="translate(2.000000, 2.000000)" fill="#919EAB" fill-rule="nonzero">
+                <path d="M9.99,0 C4.47,0 0,4.48 0,10 C0,15.52 4.47,20 9.99,20 C15.52,20 20,15.52 20,10 C20,4.48 15.52,0 9.99,0 Z M13.29,14.71 L9,10.41 L9,5 L11,5 L11,9.59 L14.71,13.3 L13.29,14.71 L13.29,14.71 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

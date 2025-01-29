@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🥬Icons/ ic_stopped</title>
+    <g id="🥬Icons/-ic_stopped" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="24" height="24"></rect>
+        <g id="Group" transform="translate(2.000000, 2.000000)">
+            <ellipse id="Oval" fill="#FFFFFF" cx="10" cy="9.5" rx="6" ry="6.5"></ellipse>
+            <path d="M10,0 C4.4765625,0 0,4.4765625 0,10 C0,15.5234375 4.4765625,20 10,20 C15.5234375,20 20,15.5234375 20,10 C20,4.4765625 15.5234375,0 10,0 Z M13.75,12.8125 C13.75,13.328125 13.328125,13.75 12.8125,13.75 L7.1875,13.75 C6.671875,13.75 6.25,13.328125 6.25,12.8125 L6.25,7.1875 C6.25,6.671875 6.671875,6.25 7.1875,6.25 L12.8125,6.25 C13.328125,6.25 13.75,6.671875 13.75,7.1875 L13.75,12.8125 Z" id="Shape" fill="#B78103" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

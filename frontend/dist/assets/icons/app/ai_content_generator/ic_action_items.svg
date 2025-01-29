@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🥬Icons/ ic_action_items</title>
+    <g id="🥬Icons/-ic_action_items" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="#gr" fill="#000000" fill-rule="nonzero" opacity="0">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="Group-3" transform="translate(2, 2)" fill-rule="nonzero">
+            <polygon id="Path" fill="#1B8C98" points="15.3514286 0 20 0 20 4.64857143 15.3514286 4.64857143"></polygon>
+            <polygon id="Path" fill="#1B8C98" points="6.76928571 3.83071429 9.5 0.0714285714 13.2607143 2.80357143 10.5285714 6.56428571"></polygon>
+            <polygon id="Path" fill="#1B8C98" points="13.1978571 7.80142857 17.5935714 6.28571429 19.1071429 10.6807143 14.7142857 12.1964286"></polygon>
+            <polygon id="Path" fill="#4ED1F8" points="0 4.60928571 4.64857143 4.60928571 4.64857143 9.25785714 0 9.25785714"></polygon>
+            <polygon id="Path" fill="#4ED1F8" points="0 10 4.64857143 10 4.64857143 14.6485714 0 14.6485714"></polygon>
+            <polygon id="Path" fill="#4ED1F8" points="5.35142857 10 10 10 10 14.6485714 5.35142857 14.6485714"></polygon>
+            <polygon id="Path" fill="#4ED1F8" points="0 15.3514286 4.64857143 15.3514286 4.64857143 20 0 20"></polygon>
+            <polygon id="Path" fill="#4ED1F8" points="5.35142857 15.3514286 10 15.3514286 10 20 5.35142857 20"></polygon>
+            <polygon id="Path" fill="#4ED1F8" points="10.7421429 15.3514286 15.3907143 15.3514286 15.3907143 20 10.7421429 20"></polygon>
+        </g>
+    </g>
+</svg>
